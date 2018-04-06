@@ -148,6 +148,7 @@ void priorityAllocator(){
 		process[i][2]=burst[i];
 		process[i][3]=arrivalTime[i];
 	}
+	// minimum priority process represents the process with priority 0.
 	//printf("\n\nThe Process has the minimum Priority is %d\n\n",minPriorityProcess+1);
 }
 
